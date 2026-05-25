@@ -76,16 +76,31 @@ app.use('/api', globalLimiter);
 
 app.use(logger);
 
+
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Shakespeare Erasmus Backend Running'
+  });
+});
+
 // Database Connection — MongoDB Atlas cloud
 mongoose.connect(process.env.MONGODB_URI, {
   maxPoolSize: 50,
   serverSelectionTimeoutMS: 10000, // fail fast if Atlas unreachable
   socketTimeoutMS: 45000,
 })
+  // .then(() => {
+  //   console.log('✅ MongoDB Atlas connected — flowers will be saved permanently!');
+  //   seedCharacters(); // Seed characters on connection
+  // })
+
   .then(() => {
-    console.log('✅ MongoDB Atlas connected — flowers will be saved permanently!');
-    seedCharacters(); // Seed characters on connection
-  })
+  console.log('✅ MongoDB Atlas connected — flowers will be saved permanently!');
+  console.log('Mongoose readyState:', mongoose.connection.readyState);
+
+  seedCharacters();
+})
   .catch(err => console.error('❌ MongoDB Atlas connection error:', err));
 
 // Apply rate limiting middleware
