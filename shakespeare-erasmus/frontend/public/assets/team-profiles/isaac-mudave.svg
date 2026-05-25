@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Isaac Mudave profile image">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f4c76b" stop-opacity="0.95"/>
+      <stop offset="52%" stop-color="#c41e3a" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#120812"/>
+    </radialGradient>
+    <linearGradient id="robe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c41e3a"/>
+      <stop offset="54%" stop-color="#f4c76b"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="420" height="420" rx="64" fill="#07040a"/>
+  <circle cx="210" cy="160" r="180" fill="url(#g)" opacity="0.82"/>
+  <path d="M88 382c18-91 70-139 122-139s104 48 122 139" fill="url(#robe)" opacity="0.96"/>
+  <path d="M132 386c16-71 48-106 78-106s62 35 78 106" fill="#0c0710" opacity="0.35"/>
+  <circle cx="210" cy="162" r="79" fill="#d9a077"/>
+  <path d="M138 146c8-55 49-91 91-81 42 10 59 51 52 91-24-14-54-19-90-13-21 4-38 5-53 3z" fill="#2b1816"/>
+  <path d="M148 175c6 54 33 87 62 87s58-34 63-88c-42 17-82 17-125 1z" fill="#d9a077"/>
+  <circle cx="182" cy="171" r="7" fill="#170b0b"/>
+  <circle cx="239" cy="171" r="7" fill="#170b0b"/>
+  <path d="M197 153c-19-7-34-5-46 5" stroke="#170b0b" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M224 153c19-7 34-5 46 5" stroke="#170b0b" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M208 177c-8 24-8 38 8 42" stroke="#8d543d" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M184 228c20 14 43 14 63 0" stroke="#6e352f" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <circle cx="210" cy="210" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="2"/>
+  <circle cx="210" cy="210" r="120" fill="none" stroke="#f4c76b" stroke-opacity="0.28" stroke-width="3" stroke-dasharray="10 14"/>
+  <g filter="url(#soft)">
+    <rect x="118" y="313" width="184" height="54" rx="27" fill="#0b0610" opacity="0.76"/>
+    <text x="210" y="350" text-anchor="middle" fill="#fff7fb" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="36" letter-spacing="3">IM</text>
+  </g>
+  <text x="210" y="393" text-anchor="middle" fill="#f4c76b" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2">KENYA</text>
+</svg>

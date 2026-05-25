@@ -1,0 +1,769 @@
+{
+  "entryPortal": {
+    "heading": "Entra en",
+    "title": "EL MUNDO DE SHAKESPEARE",
+    "subtitle": "Historias. Emociones. Legados. Tuyos para descubrir.",
+    "touchToBegin": "TOCA PARA COMENZAR",
+    "selectLanguage": "Seleccionar Idioma",
+    "scrollToExplore": "Desplázate para explorar",
+    "quoteAct": "\"El pasado es solo un prólogo…\"",
+    "quoteAuthor": "— William Shakespeare",
+    "act2": "Acto II",
+    "chooseNextAct": "Elige Tu Próximo Acto",
+    "behindCurtainTitle": "Detrás del Telón",
+    "behindCurtainDesc": "Conoce a los visionarios que dieron vida a este mundo",
+    "visitGardenTitle": "Visita el Jardín",
+    "visitGardenDesc": "Explora el tapiz vivo de legados y flores",
+    "exploreWorldTitle": "Explora el Mundo",
+    "exploreWorldDesc": "Viaja a través de las fronteras a través de las historias universales de Shakespeare",
+    "footerTitle": "Festival Internacional de Shakespeare de Craiova",
+    "footerCopyright": "© 2026 Iniciativa Shakespeare Erasmus • Festival Internacional de Shakespeare de Craiova. Todos los derechos reservados.",
+    "exploreBtn": "Explorar"
+  },
+  "mainHub": {
+    "heading": "¿QUÉ HISTORIA VIVIRÁS HOY?",
+    "subtitle": "Entra en el centro de atención y define tu camino a través de los anales del Globe.",
+    "cards": {
+      "discoverYourself": {
+        "title": "DESCÚBRETE A TI MISMO",
+        "description": "El soliloquio interior de tu propio viaje dramático.",
+        "tagline": "SOLILOQUIO"
+      },
+      "meetTheCharacter": {
+        "title": "CONOCE AL PERSONAJE",
+        "description": "Interactúa con las leyendas del escenario en tiempo real.",
+        "tagline": "PERSONAJE"
+      },
+      "discoverEvents": {
+        "title": "DESCUBRE EVENTOS",
+        "description": "Explora actuaciones en vivo que ocurren a tu alrededor.",
+        "tagline": "ESPECTÁCULO"
+      },
+      "plantYourLegacy": {
+        "title": "PLANTA TU LEGADO",
+        "description": "Cultiva las semillas de la sabiduría para las eras futuras.",
+        "tagline": "LEGADO"
+      },
+      "exploreWorld": {
+        "title": "EXPLORA EL MUNDO",
+        "description": "Navega por el panorama global del proyecto Erasmus.",
+        "tagline": "VIAJE"
+      }
+    }
+  },
+  "plantYourLegacy": {
+    "title": "Planta Tu Legado",
+    "subtitle": "Define tu presencia en el jardín del Festival. Cada nombre es una semilla, cada mensaje una flor.",
+    "step1": "PASO 1 DE 3",
+    "yourName": "TU NOMBRE",
+    "enterName": "Ingresa tu nombre",
+    "yourMessage": "TU MENSAJE",
+    "characterLimit": "LÍMITE DE 200 CARACTERES",
+    "writeMessage": "Escribe tu mensaje...",
+    "continueToPlant": "CONTINUAR PARA PLANTAR",
+    "quote": "\"Una rosa con cualquier otro nombre olería igual de dulce.\"",
+    "quoteSource": "— Romeo y Julieta, Acto II, Escena II",
+    "joinGarden": "Únete al jardín eterno. Planta tus palabras en el suelo digital del festival y contempla cómo florece tu legado para generaciones de amantes del teatro.",
+    "errors": {
+      "nameRequired": "Tu nombre es obligatorio.",
+      "messageRequired": "Se requiere un mensaje.",
+      "selectFlowerError": "Por favor, elige una flor antes de continuar."
+    },
+    "step2": "PASO 2 DE 3",
+    "chooseFlower": "ELIGE TU FLOR",
+    "everyFlower": "Cada flor tiene un significado. Elige la que te hable.",
+    "step3": "PASO 3 DE 3",
+    "flowerPlanted": "Tu flor ha sido plantada en el Jardín Shakespeare.",
+    "viewGarden": "VER EL JARDÍN",
+    "yourFlower": "TU FLOR",
+    "plantedOn": "PLANTADA EL",
+    "step3Quote": "\"La naturaleza ha creado extraños compañeros en su época.\" — Tu legado florece ahora al lado de los grandes.",
+    "flowers": {
+      "rose": {
+        "name": "Rosa",
+        "meaning": "Amor y Pasión"
+      },
+      "lily": {
+        "name": "Lirio",
+        "meaning": "Pureza y Renacimiento"
+      },
+      "sunflower": {
+        "name": "Girasol",
+        "meaning": "Lealtad y Adoración"
+      },
+      "lotus": {
+        "name": "Loto",
+        "meaning": "Iluminación"
+      },
+      "tulip": {
+        "name": "Tulipán",
+        "meaning": "Amor Profundo"
+      },
+      "iris": {
+        "name": "Iris",
+        "meaning": "Sabiduría y Esperanza"
+      },
+      "daisy": {
+        "name": "Margarita",
+        "meaning": "Inocencia"
+      },
+      "orchid": {
+        "name": "Orquídea",
+        "meaning": "Belleza Exótica"
+      },
+      "peony": {
+        "name": "Peonía",
+        "meaning": "Prosperidad"
+      },
+      "lavender": {
+        "name": "Lavanda",
+        "meaning": "Serenidad y Gracia"
+      }
+    }
+  },
+  "garden": {
+    "title": "El Jardín Shakespeare",
+    "subtitle": "Un tapiz vivo de legados, mensajes y flores.",
+    "liveUpdating": "En vivo · actualización en tiempo real",
+    "searchPlaceholder": "Buscar por nombre o mensaje...",
+    "clear": "Limpiar",
+    "legaciesPlantedCount": "{count} legados plantados",
+    "legacyPlantedCount": "1 legado plantado",
+    "resultsFound": "{count} resultados encontrados",
+    "resultFound": "1 resultado encontrado",
+    "totalFlowers": "TOTAL DE FLORES PLANTADAS",
+    "flowersToday": "FLORES HOY",
+    "peopleParticipated": "PERSONAS PARTICIPANTES",
+    "latestBloom": "Última floración",
+    "plantYourFlower": "PLANTA TU FLOR",
+    "beFirstToPlant": "Sé el primero en plantar",
+    "emptyState": "El jardín espera su primera flor.",
+    "noResults": "No se encontraron legados para \"{search}\"",
+    "exploreWorld": "EXPLORA EL MUNDO"
+  },
+  "discoverEvents": {
+    "title": "DESCUBRE EVENTOS",
+    "subtitle": "Explora obras y actuaciones en el Festival Internacional Shakespeare de Craiova.",
+    "filters": {
+      "allEvents": "TODOS LOS EVENTOS",
+      "plays": "OBRAS",
+      "workshops": "TALLERES",
+      "talks": "CHARLAS",
+      "exhibitions": "EXPOSICIONES"
+    },
+    "searchPlaceholder": "Buscar eventos...",
+    "viewDetails": "VER DETALLES",
+    "register": "REGISTRARSE"
+  },
+  "journeySummary": {
+    "heading": "¡Tu Viaje Espera Aplausos!",
+    "subtitle": "Has navegado por los pasillos etéreos del Globo, dejando un rastro de curiosidad y asombro a tu paso."
+  },
+  "layout": {
+    "mainHub": "Centro Principal",
+    "behindCurtain": "Detrás del telón",
+    "garden": "Jardín",
+    "globe": "Globo"
+  },
+  "chatbot": {
+    "avatarIntro": "¡Hola, soñador! Estoy aquí para ayudarte a descubrir qué personaje de Shakespeare refleja tu alma. ¿Empezamos?",
+    "avatarSuccess": "¡Excelente! Cada respuesta revela otra capa de tu alma. Continúa...",
+    "selfDiscovery": "Descubrimiento de Uno Mismo",
+    "stepOf": "Paso {step} de {total}",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "behold": "¡Mira! Te pareces más a...",
+    "definingVirtues": "Virtudes Definitorias",
+    "meetCharacter": "CONOCE A TU PERSONAJE",
+    "continueJourney": "CONTINUAR TU VIAJE",
+    "retakeQuiz": "Repetir el cuestionario",
+    "questions": {
+      "q1": {
+        "text": "Cuando te enfrentas a un desafío, ¿cómo sueles responder?",
+        "options": {
+          "A": "De frente con valentía",
+          "B": "Pensamiento profundo antes de actuar",
+          "C": "Confiar en mis sentimientos",
+          "D": "Evitar el conflicto cuando sea posible"
+        }
+      },
+      "q2": {
+        "text": "¿Qué valoras más en los demás?",
+        "options": {
+          "A": "Fuerza y lealtad",
+          "B": "Inteligencia y conversación profunda",
+          "C": "Empatía y pasión",
+          "D": "Alegría y humor"
+        }
+      },
+      "q3": {
+        "text": "¿Cómo te describirían tus amigos?",
+        "options": {
+          "A": "Introspectivo y tranquilo",
+          "B": "Apasionado e impulsivo",
+          "C": "Ingenioso e impredecible",
+          "D": "Sabio y autoritario"
+        }
+      },
+      "q4": {
+        "text": "Tu mayor temor es...",
+        "options": {
+          "A": "Que me mientan o traicionen",
+          "B": "Perder el control de mi destino",
+          "C": "Perder a alguien que amo",
+          "D": "Estar atrapado o aburrido"
+        }
+      },
+      "q5": {
+        "text": "En un grupo, tiendes a ser...",
+        "options": {
+          "A": "El observador silencioso",
+          "B": "El líder audaz",
+          "C": "El corazón romántico",
+          "D": "El travieso"
+        }
+      },
+      "q6": {
+        "text": "Cuando te hacen daño...",
+        "options": {
+          "A": "Planear una venganza cuidadosa",
+          "B": "Actuar inmediatamente con rabia",
+          "C": "Perdonar pero nunca olvidar",
+          "D": "Convertirlo en una broma"
+        }
+      },
+      "q7": {
+        "text": "Tu relación con la magia o el destino es...",
+        "options": {
+          "A": "Lo cuestiono todo",
+          "B": "Busco controlarlo",
+          "C": "Me rindo ante ello",
+          "D": "Juego con ello para divertirme"
+        }
+      },
+      "q8": {
+        "text": "Tu mundo ideal es uno con...",
+        "options": {
+          "A": "Orden, verdad y claridad",
+          "B": "Pasión e intensidad",
+          "C": "Amor y belleza infinitos",
+          "D": "Caos, maravilla y juego"
+        }
+      },
+      "q9": {
+        "text": "¿Qué palabra resuena más contigo?",
+        "options": {
+          "A": "Contemplación",
+          "B": "Devoción",
+          "C": "Conquista",
+          "D": "Travesura"
+        }
+      },
+      "q10": {
+        "text": "¿Cuál es tu mayor fuerza?",
+        "options": {
+          "A": "Inteligencia y perspicacia",
+          "B": "Carisma y audacia",
+          "C": "Empatía y compasión",
+          "D": "Creatividad y humor"
+        }
+      },
+      "q11": {
+        "text": "¿Cómo manejas la pérdida?",
+        "options": {
+          "A": "Interiorizar y pensar demasiado",
+          "B": "Canalizarla en la acción",
+          "C": "Llorar abierta y profundamente",
+          "D": "Distraerme rápidamente"
+        }
+      },
+      "q12": {
+        "text": "Tu relación con el poder es...",
+        "options": {
+          "A": "Cuestiono su legitimidad",
+          "B": "Lo deseo profundamente",
+          "C": "Lo uso para proteger a otros",
+          "D": "Prefiero la libertad al poder"
+        }
+      }
+    },
+    "characters": {
+      "hamlet": {
+        "name": "HAMLET",
+        "description": "Al igual que Hamlet, eres un alma profundamente introspectiva que cuestiona el mundo que te rodea. Tu mente es tu mayor arma y tu mayor carga.",
+        "archetypes": [
+          "El Pensador",
+          "El Soñador",
+          "El Buscador de la Verdad"
+        ],
+        "strengths": [
+          "Pensador Profundo",
+          "Muy Intuitivo",
+          "Busca el Sentido",
+          "Leal y Honesto"
+        ],
+        "quote": "\"Ser o no ser, esa es la cuestión.\"",
+        "play": "Hamlet"
+      },
+      "macbeth": {
+        "name": "MACBETH",
+        "description": "Al igual que Macbeth, te mueves por la pasión, la ambición y un deseo implacable de forjar tu propio camino. Cuidado con dejar que tu ambición nuble tu juicio.",
+        "archetypes": [
+          "El Ambicioso",
+          "El Líder",
+          "El Héroe Trágico"
+        ],
+        "strengths": [
+          "Decisivo",
+          "Líder Natural",
+          "Muy Enfocado",
+          "Bold Visionary"
+        ],
+        "quote": "\"Estrellas, ocultad vuestros fuegos; no dejen que la luz vea mis negros y profundos deseos.\"",
+        "play": "Macbeth"
+      },
+      "othello": {
+        "name": "OTHELLO",
+        "description": "Al igual que Othello, posees un corazón noble, una pasión intensa y una lealtad inquebrantable. Sientes todo profundamente, lo que te hace poderoso pero vulnerable.",
+        "archetypes": [
+          "El Noble Guerrero",
+          "El Apasionado",
+          "El Amante Trágico"
+        ],
+        "strengths": [
+          "Lealtad Inquebrantable",
+          "Carácter Noble",
+          "Pasión Increíble",
+          "Espíritu Valiente"
+        ],
+        "quote": "\"Amé no con prudencia, sino demasiado bien.\"",
+        "play": "Othello"
+      },
+      "juliet": {
+        "name": "JULIETA",
+        "description": "Al igual que Julieta, tu corazón está lleno de un amor puro y feroz, coraje y un hermoso espíritu romántico. Estás dispuesto a desafiar las estrellas por tus creencias.",
+        "archetypes": [
+          "La Romántica",
+          "El Alma Valiente",
+          "La Idealista"
+        ],
+        "strengths": [
+          "Amor Feroz",
+          "Gran Coraje",
+          "Devoción Inquebrantable",
+          "Idealismo Puro"
+        ],
+        "quote": "\"Mi generosidad es tan ilimitada como el mar, mi amor tan profundo.\"",
+        "play": "Romeo y Julieta"
+      },
+      "puck": {
+        "name": "PUCK",
+        "description": "Al igual que Puck, eres un espíritu alegre, caótico y travieso al que le gusta el juego, la risa y la magia. Llevas color y asombro a donde quiera que vayas.",
+        "archetypes": [
+          "El Travieso",
+          "El Espíritu Libre",
+          "El Mensajero de la Alegría"
+        ],
+        "strengths": [
+          "Ingenio Divertido",
+          "Naturaleza Adaptable",
+          "Trae la Risa",
+          "Encanto Mágico"
+        ],
+        "quote": "\"¡Señor, qué tontos son estos mortales!\"",
+        "play": "El sueño de una noche de verano"
+      },
+      "prospero": {
+        "name": "PROSPERO",
+        "description": "Al igual que Próspero, eres un maestro sabio y poderoso de tu propio destino, que posee profundos conocimientos y, en última instancia, una gran capacidad de perdón.",
+        "archetypes": [
+          "El Sabio",
+          "El Arquitecto del Destino",
+          "El que Perdona"
+        ],
+        "strengths": [
+          "Sabiduría Profunda",
+          "Autodominio",
+          "Poder Creativo",
+          "Gran Misericordia"
+        ],
+        "quote": "\"Estamos hechos de la misma materia que los sueños.\"",
+        "play": "La Tempestad"
+      }
+    }
+  },
+  "meetTheCharacter": {
+    "eyebrow": "Narración Cultural Interactiva",
+    "title": "Personajes de ShakespearErasmus",
+    "subtitle": "Elige un país y conoce a un avatar cultural teatral cuyo rostro evoca al Bardo, mientras que el vestuario, la historia, la voz y las emociones se transforman a lo largo del escenario mundial.",
+    "welcomeTitle": "Bienvenido, viajero.",
+    "welcomeCopy": "Elige un país para comenzar tu viaje cultural y teatral.",
+    "selectCountry": "Seleccionar País",
+    "avatarShowcase": "Presentación automática de emociones",
+    "avatarShowcaseDesc": "Los personajes ahora se mueven a través de sus gestos de forma automática.",
+    "nowPerforming": "Actuando",
+    "chatbot": "Chatbot",
+    "preparing": "Preparando...",
+    "askTheBard": "Preguntar al Bardo",
+    "chatPlaceholder": "Pregunta sobre el personaje, el país, la cultura...",
+    "characterCodex": "Códice del Personaje",
+    "costume": "Vestuario",
+    "background": "Trasfondo",
+    "personality": "Personalidad",
+    "suggestedTopics": "Temas de conversación sugeridos",
+    "close": "Cerrar selector de país",
+    "chatGreeting": "Saludos, noble viajero. Pregúntame sobre la cultura, la historia, el vestuario o el escenario, y te responderé en lengua barda.",
+    "chatInputPlaceholder": "Pregunta sobre el personaje, la cultura, la historia...",
+    "thinking": "Consultando a la musa..."
+  },
+  "globePage": {
+    "eyebrow": "¡He aquí! el mundo se convierte en escenario...",
+    "title": "Globo cultural shakespeariano",
+    "quote": "El mundo entero es un escenario, y cada país espera su señal.",
+    "tags": {
+      "thinker": "El Pensador",
+      "dreamer": "El Soñador",
+      "seeker": "El Buscador de la Verdad"
+    },
+    "chooseCountry": "Elige tu país",
+    "selectCountry": "Selecciona un país",
+    "continueJourney": "✦ Continúa tu viaje",
+    "actScene": "Acto III, Escena I",
+    "resetGlobe": "↺ Reiniciar el Globo",
+    "loading": "Preparando el atlas…",
+    "worldStage": "Escenario Mundial",
+    "landmark": "Punto de referencia",
+    "festivalConcept": "Concepto del festival",
+    "playPairing": "Obra emparejada",
+    "meetCharacter": "🎭 Conoce al Personaje",
+    "activeNodes": "Nodos activos",
+    "carthageMagenta": "Cartago Magenta",
+    "theatreTheme": "Tema de teatro",
+    "midnightSlate": "Medianoche y Pizarra",
+    "highlightedGlow": "Resplandor resaltado",
+    "tealEmerald": "Bordes Verde Azulado y Esmeralda",
+    "lockedCountry": "País bloqueado — elige un país resaltado",
+    "cardOpened": "tarjeta abierta",
+    "selected": "seleccionado",
+    "offlineStage": "Escenario Sin Conexión",
+    "globeCouldNotEnter": "El Globo No Pudo Entrar",
+    "geojsonError": "El archivo de límites de los países no se pudo cargar. Comprueba tu conexión a Internet.",
+    "offlineQuote": "Incluso el telón más grandioso espera sus cuerdas.",
+    "offlineIdea": "Comprueba la configuración de red o vuelve a cargar la página",
+    "offlinePlay": "La Comedia de las Equivocaciones",
+    "defaultDescription": "Solo los países en magenta están activos. Los países oscuros están bloqueados intencionalmente y no abrirán tarjetas de información.",
+    "defaultQuote": "El mundo es un escenario, pero solo las escenas elegidas están iluminadas.",
+    "defaultFestival": "Haz clic en un país activo o usa la lista",
+    "defaultPlay": "Coincidencia de estado de ánimo de Shakespeare",
+    "countries": {
+      "algeria": {
+        "title": "The Desert Court of Moonlit Verse",
+        "description": "Algeria enters with Saharan grandeur, Ottoman arches, Amazigh memory, coastal light, and music that moves like wind across ancient stone.",
+        "quote": "Where sand and sea keep counsel, the noble spirit speaks in rhythm and fire.",
+        "landmark": "Sahara Desert and Casbah of Algiers",
+        "festivalIdea": "Saharan procession, chaâbi music cues, embroidered robes, lantern shadows, and desert-gold lighting.",
+        "playPairing": "The Tempest"
+      },
+      "egypt": {
+        "title": "The Pharaoh’s Theatre of Eternity",
+        "description": "Egypt rises like a prologue carved in stone, carrying Nile mystery, golden dynasties, sacred geometry, and the solemn drama of time.",
+        "quote": "Let pyramids be pillars, and let the Nile recite what kings have long forgotten.",
+        "landmark": "The Pyramids of Giza and the Nile",
+        "festivalIdea": "Golden procession, hieroglyphic projections, river-blue fabrics, and ceremonial chorus movement.",
+        "playPairing": "Antony and Cleopatra"
+      },
+      "cambodia": {
+        "title": "The Temple Stage of Celestial Dance",
+        "description": "Cambodia glides forward with Angkor’s sacred silhouettes, apsara grace, carved myth, and gestures delicate enough to make silence bow.",
+        "quote": "The hand becomes a poem, the temple becomes a stage, and dawn applauds in gold.",
+        "landmark": "Angkor Wat",
+        "festivalIdea": "Apsara-inspired movement, lotus motifs, temple projection mapping, and candlelit ceremonial staging.",
+        "playPairing": "A Midsummer Night’s Dream"
+      },
+      "togo": {
+        "title": "The Bright Drumline of the Coast",
+        "description": "Togo steps into the light with coastal markets, woven color, spirited rhythms, and storytelling that feels communal, direct, and alive.",
+        "quote": "Beat the drum once, and the stage awakens.",
+        "landmark": "Koutammakou and Lomé coast",
+        "festivalIdea": "Drum-led entrances, patterned textiles, marketplace staging, call-and-response chorus, and warm amber light.",
+        "playPairing": "Much Ado About Nothing"
+      },
+      "tunisia": {
+        "title": "The Mediterranean Mask of Carthage",
+        "description": "Tunisia carries Carthaginian echoes, whitewashed towns, blue doors, desert edges, and a Mediterranean elegance fit for intrigue and romance.",
+        "quote": "By blue door and ancient harbor, wit takes ship and destiny follows.",
+        "landmark": "Carthage and Sidi Bou Said",
+        "festivalIdea": "Blue-and-white set pieces, Roman columns, sea-wind fabrics, oud music, and masked court scenes.",
+        "playPairing": "Twelfth Night"
+      },
+      "kenya": {
+        "title": "Where the Savannah Meets the Stage",
+        "description": "Kenya enters like a noble character beneath the golden sun, carrying rhythm, story, ancestral memory, and the proud colors of living tradition.",
+        "quote": "All the world’s a stage, and Kenya strides upon it with drums, color, and courage.",
+        "landmark": "Mount Kenya and the Maasai Mara",
+        "festivalIdea": "Open-air performance, Maasai-inspired costume design, oral storytelling, dance, and drum-led entrances.",
+        "playPairing": "A Midsummer Night’s Dream"
+      },
+      "moldova": {
+        "title": "The Vineyard Court of Quiet Song",
+        "description": "Moldova arrives with embroidered shirts, vineyard hills, folk melody, and a gentle dignity that turns village memory into lyrical theatre.",
+        "quote": "In the vineyard’s hush, the cup is raised and every song becomes a vow.",
+        "landmark": "Cricova wine cellars and Orheiul Vechi",
+        "festivalIdea": "Folk embroidery, wine-cellar ambience, circle dances, pastoral staging, and harvest lighting.",
+        "playPairing": "As You Like It"
+      },
+      "india": {
+        "title": "The Monsoon Masque of Color",
+        "description": "India bursts forth in silk, rhythm, spice, epic memory, and sacred spectacle, as though the stage itself had become a festival of color.",
+        "quote": "Let drums speak, let colors fly, and let the tale dance before the king.",
+        "landmark": "The Taj Mahal and Jaipur’s palaces",
+        "festivalIdea": "Dance-theatre fusion, vibrant textile design, epic narration, and festival-inspired lighting.",
+        "playPairing": "Twelfth Night"
+      },
+      "ukraine": {
+        "title": "The Sunflower Chorus of Resolve",
+        "description": "Ukraine stands with embroidered strength, golden fields, folk song, and a resilient stage presence full of heart and defiance.",
+        "quote": "Though winter speak harshly, the sunflower still lifts its face to the light.",
+        "landmark": "Kyiv, Lviv, and sunflower fields",
+        "festivalIdea": "Vyshyvanka motifs, choral harmonies, wheat-gold lighting, folk dance, and poetic monologues.",
+        "playPairing": "Henry V"
+      },
+      "southafrica": {
+        "title": "The Rainbow Stage of Many Voices",
+        "description": "South Africa commands the scene with layered languages, mountain silhouettes, protest theatre, bright beadwork, and a chorus of many histories.",
+        "quote": "Many voices enter, yet the stage becomes one thunderous song.",
+        "landmark": "Table Mountain and Robben Island",
+        "festivalIdea": "Multilingual ensemble performance, protest theatre, choral soundscapes, and symbolic costume palettes.",
+        "playPairing": "The Tempest"
+      },
+      "romania": {
+        "title": "The Carpathian Court of Shadows",
+        "description": "Romania appears like a moonlit scene between mountain and myth, where folklore, castles, and poetic melancholy gather at the edge of the stage.",
+        "quote": "In these hills, the night itself rehearses lines of wonder, longing, and fate.",
+        "landmark": "Bran Castle and the Carpathian Mountains",
+        "festivalIdea": "Gothic stage lighting, folklore masks, castle projections, and shadow-theatre storytelling.",
+        "playPairing": "Macbeth"
+      },
+      "montenegro": {
+        "title": "The Mountain Crown by the Sea",
+        "description": "Montenegro enters with dramatic cliffs, Adriatic blue, stone towns, and a heroic mountain mood that feels carved for tragedy and honor.",
+        "quote": "The sea below keeps secrets, while the mountain above speaks of kings.",
+        "landmark": "Bay of Kotor and Lovćen",
+        "festivalIdea": "Cliff-like set levels, maritime lanterns, warrior cloaks, and echoing mountain chorus work.",
+        "playPairing": "King Lear"
+      },
+      "france": {
+        "title": "The Court of Wit, Silk, and Revolution",
+        "description": "France sweeps in with courtly elegance, café intellect, grand architecture, and the sharp sparkle of dialogue fit for lovers and rivals.",
+        "quote": "Let wit be sharpened like a rapier, and let beauty enter without apology.",
+        "landmark": "Paris, Versailles, and the Loire Valley",
+        "festivalIdea": "Courtly ballroom staging, rococo patterns, café dialogue scenes, and revolution-red accents.",
+        "playPairing": "Love’s Labour’s Lost"
+      },
+      "japan": {
+        "title": "The Silent Garden of Moonlit Honor",
+        "description": "Japan appears with disciplined beauty, theatre masks, cherry blossoms, lantern glow, and the precise stillness of a blade before action.",
+        "quote": "In one measured step, the moon, the warrior, and the blossom share a secret.",
+        "landmark": "Kyoto temples and Mount Fuji",
+        "festivalIdea": "Noh-inspired masks, kabuki gestures, lantern corridors, cherry-blossom projections, and controlled stage rhythm.",
+        "playPairing": "Hamlet"
+      },
+      "argentina": {
+        "title": "The Tango of the Southern Court",
+        "description": "Argentina enters with a dramatic pampas turn, gaucho pride, and tango passion.",
+        "quote": "One step of tango, one glance of fate, and the whole court holds its breath.",
+        "landmark": "Buenos Aires and Patagonia",
+        "festivalIdea": "Tango choreography, gaucho costume references, poetic duels, and dramatic spotlight staging.",
+        "playPairing": "Much Ado About Nothing"
+      }
+    }
+  },
+  "teamShowcase": {
+    "eyebrow": "Los Arquitectos",
+    "title": "Conoce al Equipo",
+    "description": "Este proyecto desarrolló una plataforma digital interactiva para el Festival Internacional de Shakespeare 2026 en Craiova, combinando tecnología, cultura e IA para mejorar la participación del público. Las características incluyeron chatbots impulsados por IA, experiencias personalizadas inspiradas en Shakespeare, animaciones 3D inmersivas, un Globo 3D interactivo y un jardín digital \"Planta tu Legado\" donde los visitantes podían dejar mensajes duraderos. Llevado a cabo a través del Programa Erasmus+ en la Universidad de Craiova, el proyecto unió a estudiantes desarrolladores de India, Kenia y la República Democrática del Congo en un equipo internacional colaborativo.",
+    "returnToStage": "Regresar al Escenario",
+    "academicGuidance": {
+      "title": "ORIENTACIÓN ACADÉMICA",
+      "subtitle": "Con el apoyo invaluable de nuestros mentores y coordinadores.",
+      "countries": {
+        "india": "INDIA",
+        "kenya": "KENIA"
+      },
+      "universities": {
+        "craiova": "Universidad de Craiova"
+      },
+      "aogTitle": "El Arte de Dar por el Dr. Achyuta Samanta",
+      "aogDescription": "Inspirando a los estudiantes a dar su tiempo, talento y compasión para construir un mundo más solidario.",
+      "roles": {
+        "sorin": "Vicedecano de Actividades Estudiantiles y Relaciones Internacionales",
+        "claudiu": "Vicedecano de la Universidad de Craiova",
+        "vikas": "Director Conjunto, Relaciones Internacionales, KIIT & KISS University",
+        "aparupa": "Director Adjunto, Centro de Estudios Americanos, KIIT & KISS University",
+        "samuel": "Director Adjunto, Relaciones Internacionales, KIIT & KISS University",
+        "melanie": "Oficina de Relaciones Internacionales, KIIT & KISS University",
+        "kadey": "Director Adjunto de Asuntos Académicos, KISS University",
+        "prasanna": "Subdirector, Relaciones Internacionales, KIIT & KISS University",
+        "maranga": "Jefe de Departamento, AIU",
+        "virginia": "Coordinador Erasmus, AIU"
+      }
+    },
+    "roles": {
+      "sanjana": "Desarrollo Frontend y Diseño de Producto",
+      "kevin": "Integración de Avatar 3D y Líder de Desarrollo de Personajes de IA",
+      "drina": "Contenido del Chatbot y Planificación Lingüística",
+      "nzanzu": "Desarrollo Backend e Integración de Base de Datos",
+      "sharon": "Gestión de Producto y Apoyo Interinstitucional",
+      "gloria": "Desarrollo Backend e Integración de Base de Datos",
+      "isaac": "Especialista en Flujo de Trabajo de Animación 3D y Optimización de Activos",
+      "aksanti": "Ingeniero de Sistemas de Chatbot",
+      "sandra": "Líder de Investigación y Pruebas"
+    },
+    "countries": {
+      "india": "India",
+      "kenya": "Kenia",
+      "drc": "República Democrática del Congo (RDC)"
+    },
+    "thoughts": {
+      "sanjana": "Este proyecto fue una experiencia increíblemente gratificante que me permitió contribuir en la ideación del producto, la definición del MVP, la priorización de características, el diseño del producto, la gestión del producto y el desarrollo full-stack.\n\nMención especial a Sanidhya Kamthan, KIIT & KISS University, India.",
+      "kevin": "Trabajar en este proyecto ha sido emocionante porque combina la cultura, Shakespeare, la IA y la tecnología 3D en una sola experiencia interactiva. Me centré principalmente en la creación de la dirección del avatar cultural.",
+      "drina": "Estar involucrada en este proyecto fue especialmente significativo para mí porque reunió cultura, literatura, inteligencia artificial y lenguaje—áreas que me apasionan profundamente.",
+      "nzanzu": "Este proyecto me dio la oportunidad de aplicar los conocimientos técnicos en un entorno práctico mediante la combinación de IA, ingeniería de software y resolución de problemas del mundo real en un sistema interactivo.",
+      "sharon": "Este proyecto ha sido una oportunidad emocionante para reunir la cultura, Shakespeare, la IA y la tecnología interactiva en una plataforma unificada. Mi papel principal fue en la gestión de productos.",
+      "gloria": "Contribuir a este proyecto ha sido tanto educativo como motivador porque pude participar en todo el proceso de desarrollo, desde las primeras etapas de planificación hasta la implementación final.",
+      "isaac": "Trabajar en este proyecto ha sido una emoción absoluta porque une el arte creativo con la implementación técnica 3D. Me centré principalmente en colaborar directamente con nuestros creadores de animación.",
+      "aksanti": "Este proyecto me ha permitido explorar cómo la inteligencia artificial puede crear interacciones de usuario más personalizadas y atractivas. Contribuí principalmente al desarrollo de la función de prueba de personalidad del chatbot.",
+      "sandra": "Uno de los aspectos más gratificantes de este proyecto fue explorar cómo se puede aplicar la inteligencia artificial a la literatura y la educación cultural de una manera práctica y atractiva."
+    },
+    "characterData": {
+      "algeria": {
+        "name": "Kateb Yacine / Assia Djebar",
+        "title": "The Desert Versekeeper",
+        "role": "Poet-Guardian",
+        "costume": "A cream Algerian burnous and flowing robe, layered over loose traditional garments with a brown waist belt, simple sandals, and a softly draped hooded cloak for a dignified desert-stage silhouette.",
+        "background": "A noble voice of desert winds, old medinas, Andalusian echoes, and moonlit storytelling, carrying Shakespearean reflection across the sands.",
+        "quote": "Where dunes do rise like folded curtains, my verse walks forth beneath a crescent moon."
+      },
+      "egypt": {
+        "name": "Naguib Mahfouz",
+        "title": "The Pharaoh’s Poet",
+        "role": "Royal Scribe",
+        "costume": "A cream Egyptian galabeya-style robe, paired with a dark sleeveless vest, earth-toned sash, sandals, and a red fez-like headpiece for a refined Nile-stage presence.",
+        "background": "A majestic poet-scribe who speaks as though every line were carved upon temple stone.",
+        "quote": "By Nile’s immortal mirror, I write my grief in gold and bid the pyramids remember."
+      },
+      "cambodia": {
+        "name": "Preah Botumthera Som",
+        "title": "The Angkor Stage Dancer",
+        "role": "Temple Storyteller",
+        "costume": "A Khmer performance costume with a fitted royal-blue upper garment, red patterned sampot-style lower drape, gold waist detailing, and elegant stage lines drawn from classical Cambodian dance.",
+        "background": "A graceful performer shaped by temple carvings, apsara movement, river legends, and a quiet Shakespearean grandeur.",
+        "quote": "Soft as a lotus opening at dawn, my tale doth rise from stone and sacred water."
+      },
+      "togo": {
+        "name": "Kossi Efoui",
+        "title": "The Gulf of Guinea Messenger",
+        "role": "Rhythmic Herald",
+        "costume": "A Togo-inspired ceremonial robe using a long white silhouette with rich green vertical embroidered panels, matching green cap details, open sleeves, and formal West African stage elegance.",
+        "background": "A lively messenger whose voice carries market songs, drum language, coastal tales, and Shakespearean wit.",
+        "quote": "Strike thou the drum, and let each heartbeat summon truth from hidden chambers."
+      },
+      "tunisia": {
+        "name": "Aboul-Qacem Echebbi",
+        "title": "The Mediterranean Playwright",
+        "role": "Sea-Born Scholar",
+        "costume": "A Tunisian ceremonial look featuring a white robe, red embroidered vest and sash accents, a red chechia-style cap, and a circular back motif for a polished Mediterranean stage identity.",
+        "background": "A scholar of Carthage, desert gates, sea winds, and old amphitheatres, blending history with Bardic fire.",
+        "quote": "Upon Carthage stones and salt-kissed air, I set my grief to sail."
+      },
+      "kenya": {
+        "name": "Ngũgĩ wa Thiong'o",
+        "title": "The Bard of the Savannah",
+        "role": "Storyteller",
+        "costume": "A Maasai-inspired costume with red, green, and black shuka cloth draped across the body, layered bead necklaces and armbands, leather sandals, and a proud warrior-stage silhouette.",
+        "background": "A proud cultural storyteller who blends Maasai oral tradition, rhythmic chants, and Shakespearean drama into one powerful performance.",
+        "quote": "Upon this golden plain, where lions dream and drums do speak, I raise my voice as thunder to the heavens."
+      },
+      "moldova": {
+        "name": "Ion Druță",
+        "title": "The Dniester Minstrel",
+        "role": "Folk Poet",
+        "costume": "A Moldovan folk costume with a white shirt and trousers, black sleeveless vest, red-and-black embroidered front panels, dark boots, and a tall black traditional hat.",
+        "background": "A lyrical village poet who carries vineyard songs, folk dances, embroidered memory, and Shakespearean longing.",
+        "quote": "In every vine there sleeps a song, and in each cup a kingdom’s heart."
+      },
+      "india": {
+        "name": "Rabindranath Tagore",
+        "title": "The Royal Scholar of Rasa",
+        "role": "Scholar",
+        "costume": "An Indian costume with a cream kurta and dhoti-style base, saffron and green draped shawl panels, gold-trimmed borders, sandals, and a soft headwrap for a regal classical-stage look.",
+        "background": "A learned speaker who blends Sanskritic drama, rasa theory, music, and Shakespearean reflection.",
+        "quote": "Within the lotus of the heart, ten thousand passions bloom and bow before the play."
+      },
+      "ukraine": {
+        "name": "Taras Shevchenko",
+        "title": "The Steppe Soliloquist",
+        "role": "Freedom Poet",
+        "costume": "A Ukrainian folk-stage costume with a white tunic and trousers, blue vest and sash, embroidered trims, boots, and a dark cap for a proud festival-ready silhouette.",
+        "background": "A resilient voice of steppe winds, sunflower fields, folk song, and brave Shakespearean declaration.",
+        "quote": "Though storms may bruise the golden field, the sunflower lifts its crown to heaven."
+      },
+      "southAfrica": {
+        "name": "Mazisi Kunene",
+        "title": "The Rainbow Stagekeeper",
+        "role": "Warrior Performer",
+        "costume": "A South African warrior-inspired costume with leopard-print textures, beadwork across the chest and waist, layered leather or fur-like panels, arm and leg adornments, and a striking ceremonial headpiece.",
+        "background": "A powerful performer whose voice joins many cultures into one stage of resilience, rhythm, and hope.",
+        "quote": "Let every colour of the dawn arise; our stage is wide enough for every soul to speak."
+      },
+      "romania": {
+        "name": "Mihai Eminescu",
+        "title": "The Carpathian Playwright",
+        "role": "Dramatic Scholar",
+        "costume": "A Romanian folk costume with a white shirt and trousers, black vest, red-and-gold waist sash, embroidered chest details, dark boots, and a tall traditional hat.",
+        "background": "A mountain-born dramatist who carries legends of forests, castles, and village songs into the Shakespearean stage.",
+        "quote": "In Carpathian dusk, where wolves keep counsel, my ink becomes a lantern against the night."
+      },
+      "montenegro": {
+        "name": "Petar II Petrović-Njegoš",
+        "title": "The Adriatic Tragedian",
+        "role": "Mountain Noble",
+        "costume": "A Montenegrin ceremonial costume with a white shirt, deep navy trousers, ornate red-and-gold embroidered vest, wide sash, boots, and a proud traditional cap.",
+        "background": "A stern yet lyrical noble of mountain cliffs, Adriatic winds, heroic songs, and Shakespearean honour.",
+        "quote": "Upon black mountains crowned with fire, honour speaks louder than the sea."
+      },
+      "france": {
+        "name": "Molière",
+        "title": "The Parisian Dramaturge",
+        "role": "Court Playwright",
+        "costume": "A French theatre-military costume with a fitted navy long coat, white trousers, red trim, structured waistcoat details, black boots, and a disciplined dramatic silhouette.",
+        "background": "A refined playwright of salons, revolutions, romance, and razor-sharp wit, speaking Shakespeare through Parisian elegance.",
+        "quote": "Love enters softly as perfume, yet exits like thunder from the royal court."
+      },
+      "japan": {
+        "name": "Chikamatsu Monzaemon",
+        "title": "The Samurai of Sonnets",
+        "role": "Warrior Poet",
+        "costume": "A Japanese stage costume using a white kimono-style robe, red patterned haori layers, wide sleeves, traditional sandals, and a composed theatrical silhouette.",
+        "background": "A disciplined performer whose words move like a katana: precise, graceful, and filled with quiet thunder.",
+        "quote": "Like moonlight on a silent blade, my verse doth cut the night and leave behind a garden of stars."
+      },
+      "shakespeare": {
+        "name": "William Shakespeare",
+        "title": "The Bard Himself",
+        "role": "Playwright",
+        "costume": "A Shakespeare-inspired Elizabethan costume with a dark doublet and cloak, cream ruff collar, fitted black layers, boots, and a burgundy-lined cape for a classic Globe-stage presence.",
+        "background": "The original Bard steps forward as himself: playwright, poet, dramatist, and master of comedy, tragedy, history, and immortal language.",
+        "quote": "All worlds are stages here, and every traveller enters with a part to play."
+      },
+      "argentina": {
+        "name": "Jorge Luis Borges",
+        "title": "The Gaucho Sonneteer",
+        "role": "Wandering Minstrel",
+        "costume": "An Argentine gaucho-inspired outfit with a black wide-brimmed hat, white shirt, patterned blue-grey poncho, loose bombacha trousers, leather belt, and dark boots for a wandering pampas-stage figure.",
+        "background": "A roaming poet of pampas winds, tango sorrow, silver rivers, and Shakespearean romance.",
+        "quote": "Across the pampas rides my heart, with moon for spur and sorrow for a song."
+      }
+    }
+  }
+}

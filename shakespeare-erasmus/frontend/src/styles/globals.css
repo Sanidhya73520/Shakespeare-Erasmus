@@ -1,0 +1,72 @@
+@import './animations.css';
+
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-shakespeare-dark text-white font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wide;
+  }
+}
+
+@layer utilities {
+  .gradient-border-button {
+    position: relative;
+    background: linear-gradient(90deg, #A0238E, #E43D12);
+    box-shadow: 0 0 25px rgba(160, 35, 142, 0.4), 0 0 50px rgba(228, 61, 18, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .bg-custom-mask {
+    background-image: linear-gradient(to right, rgba(5, 5, 5, 1) 40%, rgba(5, 5, 5, 0) 100%), url(https://lh3.googleusercontent.com/aida-public/AB6AXuDMkBjJUgLVf3t0oLuQOjLm7gTNWXfBEzk48OR5Jm6kzFwsrBO6jhjMfWkqNp-Rs1IP_tGQaU9mSsYij2ycMMvjeCzNKH6llPsHKVJbBaZG0BviTsyEGNgEq-y7dXfZ8nr1bFHHAfCn9pdDhEr-QpqVSHMWA3nGTtfh1qZS9kHLxSsmHRjS-XXWPdFKuxyeaf4YptbsPEKMreysdNJP_G6pRdVV-yBUVreJZdUfC9ERSlnZhfLZtLe784YviPDgVmMO6eZrSOvcNBl9);
+    background-size: cover;
+    background-position: center;
+  }
+  .artistic-bg {
+    background: radial-gradient(circle at 80% 50%, rgba(160, 35, 142, 0.4) 0%, transparent 60%), radial-gradient(circle at 90% 20%, rgba(228, 61, 18, 0.3) 0%, transparent 50%), radial-gradient(circle at 75% 80%, rgba(35, 154, 155, 0.3) 0%, transparent 50%);
+  }
+  .ripple-container {
+    position: relative;
+  }
+  .ripple {
+    position: absolute;
+    border: 1px solid #E43D12;
+    border-radius: 50%;
+    animation: ripple-effect 2s infinite linear;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes ripple-effect {
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
+
+.page-fade-in {
+  animation: pageFadeIn 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+@keyframes pageFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
