@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply bg-shakespeare-dark text-white font-body;
+    @apply bg-shakespeare-dark text-white font-body overflow-x-hidden w-full;
   }
   
   h1, h2, h3, h4, h5, h6 {

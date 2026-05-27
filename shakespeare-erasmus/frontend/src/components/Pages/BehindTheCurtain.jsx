@@ -100,11 +100,11 @@ export default function BehindTheCurtain() {
   const [selectedDeveloper, setSelectedDeveloper] = useState(null);
 
   return (
-    <div className="min-h-screen relative overflow-hidden flex flex-col items-center pb-24"
+    <div className="min-h-screen relative overflow-x-hidden flex flex-col items-center pb-24"
       style={{ background: 'linear-gradient(to bottom, #1c0f1a 0%, #000000 100%)', color: '#f4dcec' }}>
 
       {/* Background Ambience: Cinematic Nocturne */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         {/* Stage Lights (Neon Magenta) */}
         <div className="absolute -top-32 right-[-10%] w-[800px] h-[800px] rounded-full mix-blend-screen"
           style={{ background: 'radial-gradient(circle, rgba(255,0,255,0.06) 0%, transparent 70%)', filter: 'blur(100px)' }} />

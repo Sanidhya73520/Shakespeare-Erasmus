@@ -190,7 +190,7 @@ export default function ShakespeareGarden() {
     <div className="min-h-screen relative overflow-x-hidden" style={{ background:'#131317', color:'#e4e1e7' }}>
 
       {/* ── Immersive background ── */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <div className="absolute inset-0" style={{ background:'linear-gradient(to bottom, #0e0e12, #131317)' }} />
         <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] rounded-full"
           style={{ background:'rgba(160,35,142,0.08)', filter:'blur(120px)' }} />
