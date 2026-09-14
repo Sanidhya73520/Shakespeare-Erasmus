@@ -634,7 +634,7 @@ export default function ExploreWorld() {
           </div>
         </div>
 
-        <aside className="portrait-frame" aria-label="Featured theatre card">
+        {/* <aside className="portrait-frame" aria-label="Featured theatre card">
           <div className="portrait-card">
             <div className="portrait-glow"></div>
             <div className="portrait-art">
@@ -646,7 +646,7 @@ export default function ExploreWorld() {
               <strong>{t('globePage.actScene')}</strong>
             </div>
           </div>
-        </aside>
+        </aside> */}
       </section>
 
       {/* Status Row */}
@@ -676,7 +676,7 @@ export default function ExploreWorld() {
 
         {/* Info Panel Sidebar */}
         <aside id="infoPanel" className={`info-panel ${isPanelOpen ? 'is-open' : ''}`} aria-hidden={!isPanelOpen}>
-          <button
+          {/* <button
             id="closePanelBtn"
             className="close-btn"
             type="button"
@@ -684,7 +684,7 @@ export default function ExploreWorld() {
             onClick={() => setIsPanelOpen(!isPanelOpen)}
           >
             ×
-          </button>
+          </button> */}
 
           <div className="panel-inner">
             <div className="panel-topline">
@@ -740,7 +740,7 @@ export default function ExploreWorld() {
         </aside>
       </section>
 
-      {/* Decorative swatch summary footer strip */}
+      {/* Decorative swatch summary footer strip
       <section className="theme-strip">
         <div>
           <span className="swatch swatch-magenta"></span>
@@ -763,7 +763,7 @@ export default function ExploreWorld() {
             <strong>{t('globePage.tealEmerald')}</strong>
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
