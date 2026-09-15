@@ -335,7 +335,7 @@ export default function BehindTheCurtain() {
               {/* Person 3 */}
               <div className="relative px-4 md:px-6 py-4">
                 <h3 className="font-serif text-xl md:text-2xl font-bold text-white mb-2">
-                  Mr. Viad Dragulescu
+                  Mr. Vlad Dragulescu
                 </h3>
 
                 <p
@@ -346,7 +346,7 @@ export default function BehindTheCurtain() {
                 </p>
 
                 <p className="font-sans text-xs mt-2 text-white/60">
-                  CISF Team
+                  Craiova International Shakespeare Festival
                 </p>
               </div>
 
